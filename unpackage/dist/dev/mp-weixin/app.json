@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/button/button",
+    "pages/icon/icon",
+    "pages/cell/cell",
+    "pages/loading/loading",
+    "pages/tag/tag",
+    "pages/sidebar/sidebar",
+    "pages/tabbar/tabbar",
+    "pages/field/field",
+    "pages/submit-bar/submit-bar",
+    "pages/goods-action/goods-action",
+    "pages/contact-card/contact-card",
+    "pages/card/card",
+    "pages/col/col",
+    "pages/rate/rate",
+    "pages/search/search",
+    "pages/stepper/stepper"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "xuanyu ui",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "usingComponents": {
+    "demo-block": "/components/demo-block"
+  }
+}

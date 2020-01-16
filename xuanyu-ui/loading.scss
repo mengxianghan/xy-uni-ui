@@ -1,0 +1,25 @@
+.x-loading {
+	display: inlin-flex;
+	align-items: center;
+	justify-content: center;
+	color: $loading-spinner-color;
+	position: relative;
+	width: $loading-spinner-size;
+	max-width: 100%;
+	height: $loading-spinner-size;
+	max-height: 100%;
+	animation: x-rotate $loading-spinner-animation-duration linear infinite;
+	border: 1px solid transparent;
+	border-top-color: currentColor;
+	border-radius: 100%;
+}
+
+@keyframes x-rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

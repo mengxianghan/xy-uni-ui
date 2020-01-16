@@ -1,0 +1,72 @@
+.x-goods-action {
+	// position: fixed;
+	// right: 0;
+	// bottom: 0;
+	// left: 0;
+	display: flex;
+	align-items: center;
+	background-color: $goods-action-background-color;
+
+	&--safe-area-inset-bottom {
+		padding-bottom: constant(safe-area-inset-bottom);
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+
+	&-button {
+		flex: 1;
+		height: $goods-action-button-height;
+		font-weight: $font-weight-bold;
+		font-size: $font-size-md;
+		line-height: normal;
+		border: none;
+
+		&--first {
+			margin-left: 5px;
+			border-top-left-radius: $goods-action-button-height / 2;
+			border-bottom-left-radius: $goods-action-button-height / 2;
+		}
+
+		&--last {
+			margin-right: 5px;
+			border-top-right-radius: $goods-action-button-height / 2;
+			border-bottom-right-radius: $goods-action-button-height / 2;
+		}
+
+		&--warning {
+			background: $goods-action-button-warning-color;
+		}
+
+		&--danger {
+			background: $goods-action-button-danger-color;
+		}
+
+		@media (max-width: 321px) {
+			font-size: 13px;
+		}
+	}
+
+	&-icon {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-width: $goods-action-icon-width;
+		height: $goods-action-icon-height;
+		color: $goods-action-icon-text-color;
+		font-size: $goods-action-icon-font-size;
+		line-height: 1;
+		text-align: center;
+		background-color: $white;
+		cursor: pointer;
+
+		&:active {
+			background-color: $goods-action-icon-active-color;
+		}
+
+		&__icon {
+			width: 1em;
+			margin: 0 auto 5px;
+			color: $goods-action-icon-color;
+			font-size: $goods-action-icon-size;
+		}
+	}
+}

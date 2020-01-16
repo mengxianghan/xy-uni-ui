@@ -1,0 +1,18 @@
+.x-col {
+  float: left;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+
+@mixin generate($n, $i: 1) {
+	@if ($i <= $n) {
+		.x-col--#{$i} {
+			width: $i * 100% / 24;
+		}
+		.x-col--offset-#{$i} {
+			margin-left: $i * 100% / 24;
+		}
+		@include generate($n, ($i + 1));
+	}
+}
+@include generate(24);

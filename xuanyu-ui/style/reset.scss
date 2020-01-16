@@ -1,0 +1,17 @@
+page{
+	font-size: 28rpx;
+	font-family: 'PingFang SC';
+}
+
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	box-sizing: border-box;
+	outline: none;
+}

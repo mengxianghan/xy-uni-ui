@@ -1,0 +1,1 @@
+<view class="{{['demo-block data-v-55e996bf',padding?'demo-block--padding':'']}}"><view class="demo-block__title data-v-55e996bf">{{title}}</view><slot></slot></view>
