@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="demo-home">
-			<view class="demo-home__title">XuanYu UI</view>
+			<view class="demo-home__title">xuanyu ui uniapp</view>
 			<view class="demo-home__desc">轻量、可靠的 UniApp 组件库</view>
 			<view class="demo-home-nav" v-for="(item, index) in list" :key="index">
 				<view class="demo-home-nav__title">{{ item.title }}</view>
@@ -29,9 +29,13 @@ export default {
 							name: 'Cell 单元格',
 							url: '/pages/cell/cell'
 						},
+						// {
+						// 	name: 'Icon 图标',
+						// 	url: '/pages/icon/icon'
+						// },
 						{
-							name: 'Icon 图标',
-							url: '/pages/icon/icon'
+							name: 'Image 图片',
+							url: '/pages/image/image'
 						},
 						{
 							name: 'Layout 布局',
@@ -47,8 +51,16 @@ export default {
 					title: '表单组件',
 					children: [
 						{
+							name: 'Checkbox 复选框',
+							url: '/pages/checkbox/checkbox'
+						},
+						{
 							name: 'Field 输入框',
 							url: '/pages/field/field'
+						},
+						{
+							name: 'Radio 单选框',
+							url: '/pages/radio/radio'
 						},
 						{
 							name: 'Rate 评分',
@@ -59,8 +71,16 @@ export default {
 							url: '/pages/search/search'
 						},
 						{
+							name: 'Slider 滑块',
+							url: '/pages/slider/slider'
+						},
+						{
 							name: 'Stepper 步进器',
 							url: '/pages/stepper/stepper'
+						},
+						{
+							name: 'Switch 开关',
+							url: '/pages/switch/switch'
 						},
 						{
 							name: 'Uploader 文件上传',
@@ -89,12 +109,20 @@ export default {
 					title: '展示组件',
 					children: [
 						{
-							name: 'Divider 分割线',
+							name: 'divider 分割线',
 							url: '/pages/divider/divider'
+						},
+						{
+							name: 'NoticeBar 通知栏',
+							url: '/pages/notice-bar/notice-bar'
 						},
 						{
 							name: 'Panel 面板',
 							url: '/pages/panel/panel'
+						},
+						{
+							name: 'Steps 步骤条',
+							url: '/pages/steps/steps'
 						},
 						{
 							name: 'Tag 标记',
@@ -106,12 +134,28 @@ export default {
 					title: '导航组件',
 					children: [
 						{
+							name: 'Grid 宫格',
+							url: '/pages/grid/grid'
+						},
+						{
+							name: 'NavBar 导航栏',
+							url: '/pages/nav-bar/nav-bar'
+						},
+						{
 							name: 'Sidebar 侧边导航',
 							url: '/pages/sidebar/sidebar'
 						},
 						{
-							name: 'Tabbar 标签页',
+							name: 'Tab 标签页',
+							url: '/pages/tab/tab'
+						},
+						{
+							name: 'Tabbar 标签栏',
 							url: '/pages/tabbar/tabbar'
+						},
+						{
+							name: 'TreeSelect 分类选择',
+							url: '/pages/tree-select/tree-select'
 						}
 					]
 				},

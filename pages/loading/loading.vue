@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="加载类型" padding>
 			<view class="x-loading"></view>
 		</demo-block>

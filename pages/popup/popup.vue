@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法">
 			<view class="x-cell x-cell--clickable" @tap="handleShow('show1')">
 				<view class="x-cell__title"><text>展示弹出层</text></view>

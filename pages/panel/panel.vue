@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section demo-panel">
+	<view class="demo-section demo-panel">
 		<demo-block title="基础用法">
 			<view class="x-cell-group x-panel">
 				<view class="x-cell x-panel__header">

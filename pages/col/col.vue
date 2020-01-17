@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section demo-col">
+	<view class="demo-section demo-col">
 		<demo-block title="基础用法" padding>
 			<view class="x-row">
 				<view class="x-col x-col--8">span: 8</view>

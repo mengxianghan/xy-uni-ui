@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法">
 			<view class="x-hairline--top-bottom x-tabbar">
 				<view class="x-tabbar-item x-tabbar-item--active">

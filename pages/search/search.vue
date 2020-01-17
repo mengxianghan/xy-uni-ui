@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法">
 			<view class="x-search" style="background: rgb(255, 255, 255);">
 				<view class="x-search__content x-search__content--square">

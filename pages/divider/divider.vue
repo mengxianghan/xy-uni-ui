@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法"><view class="x-divider x-divider--hairline"></view></demo-block>
 		<demo-block title="展示文本"><view class="x-divider x-divider--hairline x-divider--content-center">文本</view></demo-block>
 		<demo-block title="内容位置">

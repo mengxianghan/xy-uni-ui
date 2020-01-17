@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法">
 			<view class="x-cell x-cell--clickable x-cell--center x-cell--borderless x-contact-card x-contact-card--edit">
 				<text class="x-icon x-icon-contact x-cell__left-icon"></text>

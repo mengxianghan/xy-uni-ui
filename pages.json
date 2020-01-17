@@ -2,9 +2,7 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"style": {
-				"navigationStyle": "custom"
-			}
+			"style": {}
 		}, {
 			"path": "pages/button/button",
 			"style": {
@@ -38,7 +36,7 @@
 		}, {
 			"path": "pages/tabbar/tabbar",
 			"style": {
-				"navigationBarTitleText": "Tabbar 标签页"
+				"navigationBarTitleText": "Tabbar 标签栏"
 			}
 		}, {
 			"path": "pages/field/field",
@@ -115,11 +113,70 @@
 			"style": {
 				"navigationBarTitleText": "Popup 弹出层"
 			}
+		}, {
+			"path": "pages/image/image",
+			"style": {
+				"navigationBarTitleText": "Image 图片"
+			}
+		}, {
+			"path": "pages/checkbox/checkbox",
+			"style": {
+				"navigationBarTitleText": "Checkbox 复选框"
+			}
+		}, {
+			"path": "pages/radio/radio",
+			"style": {
+				"navigationBarTitleText": "Radio 单选框"
+			}
+		}, {
+			"path": "pages/switch/switch",
+			"style": {
+				"navigationBarTitleText": "Switch 开关"
+			}
+		}, {
+			"path": "pages/slider/slider",
+			"style": {
+				"navigationBarTitleText": "Slider 滑块"
+			}
+		}, {
+			"path": "pages/notice-bar/notice-bar",
+			"style": {
+				"navigationBarTitleText": "NoticeBar 通知栏"
+			}
+		}, {
+			"path": "pages/steps/steps",
+			"style": {
+				"navigationBarTitleText": "Steps 步骤条"
+			}
 		}
-	],
+	    ,{
+            "path" : "pages/grid/grid",
+            "style" : {
+				"navigationBarTitleText":"Grid 宫格"
+			}
+        }
+        ,{
+            "path" : "pages/tree-select/tree-select",
+            "style" : {
+				"navigationBarTitleText":"TreeSelect 分类选择"
+			}
+        }
+        ,{
+            "path" : "pages/nav-bar/nav-bar",
+            "style" : {
+				"navigationBarTitleText":"NavBar 导航栏"
+			}
+        }
+        ,{
+            "path" : "pages/tab/tab",
+            "style" : {
+				"navigationBarTitleText":"Tab 标签页"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "xuanyu ui",
+		"navigationBarTitleText": "xuanyu ui uniapp",
 		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#fff"
 	}

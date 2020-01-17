@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法" padding>
 			<button class="x-button x-button--primary" @tap="handleShow('show1')">弹出菜单</button>
 			<view class="x-popup x-popup--round x-popup--bottom x-popup--safe-area-inset-bottom x-action-sheet" :class="{ 'x-popup--show': show1 }">

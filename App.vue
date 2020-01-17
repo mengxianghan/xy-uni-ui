@@ -25,7 +25,7 @@ uni-page-head{
 	line-height: 1;
 }
 
-.x-doc-demo-section {
+.demo-section {
     padding-bottom: 20px;
 }
 </style>

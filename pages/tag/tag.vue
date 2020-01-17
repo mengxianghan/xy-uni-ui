@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法" padding>
 			<view class="x-tag x-tag--default">标签</view>
 			<view class="x-tag x-tag--primary">标签</view>

@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="按钮类型" padding>
 			<button class="x-button x-button--default">默认按钮</button>
 			<button class="x-button x-button--primary">主要按钮</button>
@@ -62,6 +62,7 @@ export default {
 
 <style lang="scss" scoped>
 .x-button {
+	margin: 0 16rpx 16rpx 0;
 	.x-loading {
 		width: 32rpx;
 		height: 32rpx;

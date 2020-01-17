@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section">
+	<view class="demo-section">
 		<demo-block title="基础用法" padding>
 			<view class="x-sidebar">
 				<view class="x-sidebar-item x-sidebar-item--select"><view class="x-sidebar-item__text">标签名</view></view>

@@ -1,0 +1,93 @@
+.x-checkbox {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	cursor: pointer;
+	user-select: none;
+
+	--checked-color: $checkbox-checked-icon-color;
+	--checkbox-size: $checkbox-size;
+
+	uni-checkbox,
+	checkbox {
+		line-height: 1;
+		.uni-checkbox-wrapper,
+		.wx-checkbox-wrapper {
+			flex: none;
+			height: 1em;
+			font-size: var(--checkbox-size, $checkbox-size);
+			line-height: 1em;
+			cursor: pointer;
+		}
+		.uni-checkbox-input,
+		.wx-checkbox-input {
+			display: block;
+			box-sizing: border-box;
+			width: 1.25em;
+			height: 1.25em;
+			color: transparent;
+			font-size: 0.8em;
+			line-height: inherit;
+			text-align: center;
+			border: 1px solid $checkbox-border-color !important;
+			// transition-duration: $checkbox-transition-duration;
+			// transition-property: color, border-color, background-color;
+			margin-right: 0;
+
+			&.uni-checkbox-input-checked,
+			&.wx-checkbox-input-checked {
+				color: $white !important;
+				background-color: var(--checked-color, $checkbox-checked-icon-color);
+				border-color: var(--checked-color, $checkbox-checked-icon-color) !important;
+				&::before {
+					content: '\F0C8';
+					font-family: 'vant-icon';
+					font-size: var(--checkbox-size, $checkbox-size);
+				}
+			}
+		}
+	}
+	&--disabled {
+		uni-checkbox,
+		checkbox {
+			.uni-checkbox-wrapper,
+			.wx-checkbox-wrapper {
+			}
+			.uni-checkbox-input,
+			.wx-checkbox-input {
+				background-color: $checkbox-disabled-background-color;
+				border-color: $checkbox-disabled-icon-color;
+				&.uni-checkbox-input-checked,
+				&.wx-checkbox-input-checked {
+					color: $checkbox-disabled-icon-color !important;
+					background-color: $checkbox-disabled-background-color;
+					border-color: $checkbox-disabled-icon-color !important;
+				}
+			}
+		}
+		.x-checkbox__label {
+			color: $checkbox-disabled-label-color;
+		}
+	}
+
+	&--round {
+		.uni-checkbox-input,
+		.wx-checkbox-input {
+			border-radius: 100%;
+		}
+	}
+
+	&--square {
+		.uni-checkbox-input,
+		.wx-checkbox-input {
+			border-radius: 0;
+		}
+	}
+
+	&__label {
+		margin-left: $checkbox-label-margin;
+		color: $checkbox-label-color;
+		line-height: $checkbox-size;
+	}
+}
+

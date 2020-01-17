@@ -1,5 +1,5 @@
 <template>
-	<view class="x-doc-demo-section demo-dialog">
+	<view class="demo-section demo-dialog">
 		<demo-block title="提示弹窗" padding>
 			<button class="x-button x-button--primary" @tap="handleShow('show')">提示弹窗</button>
 			<button class="x-button x-button--primary" @tap="handleShow('show1')">提示弹窗（无标题）</button>

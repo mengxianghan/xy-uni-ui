@@ -1,0 +1,12 @@
+.x-slider {
+	uni-slider {
+		margin: 0;
+		.uni-slider-thumb {
+			box-shadow: $slider-button-box-shadow;
+		}
+	}
+	&--disabled {
+		cursor: not-allowed;
+		opacity: $slider-disabled-opacity;
+	}
+}
