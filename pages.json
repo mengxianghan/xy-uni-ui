@@ -173,6 +173,18 @@
 				"navigationBarTitleText":"Tab 标签页"
 			}
         }
+        ,{
+            "path" : "pages/address-edit/address-edit",
+            "style" : {
+				"navigationBarTitleText":"AddressEdit 地址编辑"
+			}
+        }
+        ,{
+            "path" : "pages/sku/sku",
+            "style" : {
+				"navigationBarTitleText":"Sku 商品规格"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

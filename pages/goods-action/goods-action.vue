@@ -1,5 +1,5 @@
 <template>
-	<view class="demo-section">
+	<view class="demo-section demo-goods-action">
 		<demo-block title="基础用法">
 			<view class="x-goods-action">
 				<view class="x-goods-action-icon">
@@ -97,4 +97,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.demo-goods-action{
+		.x-goods-action{
+			position: initial;
+		}
+	}
+</style>

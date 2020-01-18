@@ -1,5 +1,5 @@
 <template>
-	<view class="demo-section">
+	<view class="demo-section demo-submit-bar">
 		<demo-block title="基础用法">
 			<view class="x-submit-bar">
 				<view class="x-submit-bar__bar">
@@ -64,12 +64,10 @@
 					<text class="edit-address">修改地址</text>
 				</view>
 				<view class="x-submit-bar__bar">
-					<view class="x-checkbox">
-						<view class="x-checkbox__icon x-checkbox__icon--round x-checkbox__icon--checked">
-							<text class="x-icon x-icon-success"></text>
-						</view>
+					<label class="x-checkbox x-checkbox--round">
+						<checkbox />
 						<text class="x-checkbox__label">全选</text>
-					</view>
+					</label>
 					<view class="x-submit-bar__text">
 						<text>合计：</text>
 						<text class="x-submit-bar__price">
@@ -95,4 +93,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.demo-submit-bar{
+		.x-submit-bar{
+			position:initial;
+		}
+	}
+</style>

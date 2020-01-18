@@ -163,6 +163,10 @@ export default {
 					title: '业务组件',
 					children: [
 						{
+							name: 'AddressEdit 地址编辑',
+							url: '/pages/address-edit/address-edit'
+						},
+						{
 							name: 'Card 商品卡片',
 							url: '/pages/card/card'
 						},
@@ -177,6 +181,10 @@ export default {
 						{
 							name: 'SubmitBar 提交订单栏',
 							url: '/pages/submit-bar/submit-bar'
+						},
+						{
+							name: 'Sku 商品规格',
+							url: '/pages/sku/sku'
 						}
 					]
 				}
