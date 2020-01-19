@@ -101,14 +101,6 @@
 								</view>
 							</view>
 						</view>
-						<view class="x-cell x-field x-field--min-height">
-							<view class="x-cell__title x-field__label"><text>留言4</text></view>
-							<view class="x-cell__value">
-								<view class="x-field__body">
-									<textarea placeholder="点击填写段落文本" class="x-field__control"></textarea>
-								</view>
-							</view>
-						</view>
 						<view class="x-cell x-field">
 							<view class="x-cell__title x-field__label"><text>数字</text></view>
 							<view class="x-cell__value">
@@ -240,12 +232,6 @@
 										</view>
 									</view>
 								</view>
-							</view>
-						</view>
-						<view class="x-cell x-field x-field--min-height">
-							<view class="x-cell__title x-field__label"><text>留言4</text></view>
-							<view class="x-cell__value">
-								<view class="x-field__body"><textarea placeholder="点击填写段落文本" class="x-field__control"></textarea></view>
 							</view>
 						</view>
 						<view class="x-cell x-field">
@@ -387,14 +373,6 @@
 								</view>
 							</view>
 						</view>
-						<view class="x-cell x-field x-field--min-height">
-							<view class="x-cell__title x-field__label"><text>留言4</text></view>
-							<view class="x-cell__value">
-								<view class="x-field__body">
-									<textarea placeholder="点击填写段落文本" class="x-field__control"></textarea>
-								</view>
-							</view>
-						</view>
 						<view class="x-cell x-field">
 							<view class="x-cell__title x-field__label"><text>数字</text></view>
 							<view class="x-cell__value">
@@ -531,12 +509,6 @@
 										</view>
 									</view>
 								</view>
-							</view>
-						</view>
-						<view class="x-cell x-field x-field--min-height">
-							<view class="x-cell__title x-field__label"><text>留言4</text></view>
-							<view class="x-cell__value">
-								<view class="x-field__body"><textarea placeholder="点击填写段落文本" class="x-field__control"></textarea></view>
 							</view>
 						</view>
 						<view class="x-cell x-field">
