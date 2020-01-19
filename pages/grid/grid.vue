@@ -211,13 +211,13 @@
 			<view class="x-grid x-hairline--top">
 				<view class="x-grid-item" style="flex-basis: 50%;">
 					<view class="x-grid-item__content x-grid-item__content--center x-hairline">
-						<text class="x-icon x-icon-home-o x-grid-item__icon"><view class="x-info x-info--dot"></view></text>
+						<view class="x-icon x-icon-home-o x-grid-item__icon"><text class="x-info x-info--dot"></text></view>
 						<view class="x-grid-item__text">文字</view>
 					</view>
 				</view>
 				<view class="x-grid-item" style="flex-basis: 50%;">
 					<view class="x-grid-item__content x-grid-item__content--center x-hairline">
-						<text class="x-icon x-icon-search x-grid-item__icon"><view class="x-info">99+</view></text>
+						<view class="x-icon x-icon-search x-grid-item__icon"><text class="x-info">99+</text></view>
 						<view class="x-grid-item__text">文字</view>
 					</view>
 				</view>
