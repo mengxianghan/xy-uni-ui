@@ -1,14 +1,13 @@
 <script>
 export default {
 	onLaunch: function() {
-		// console.log('App Launch');
 		// #ifdef MP
 		if (uni.canIUse('getUpdateManager')) {
 			const updateManager = uni.getUpdateManager();
 
 			updateManager.onCheckForUpdate(function(res) {
 				// 请求完新版本信息的回调
-				console.log(res.hasUpdate);
+				// console.log(res.hasUpdate);
 			});
 
 			updateManager.onUpdateReady(function() {
@@ -30,12 +29,8 @@ export default {
 		}
 		// #endif
 	},
-	onShow: function() {
-		// console.log('App Show');
-	},
-	onHide: function() {
-		// console.log('App Hide');
-	}
+	onShow: function() {},
+	onHide: function() {}
 };
 </script>
 
