@@ -23,8 +23,8 @@
 		<demo-block title="加载状态" padding>
 			<button class="x-button x-button--primary"><view class="x-loading"></view></button>
 			<button class="x-button x-button--info">
-				<text class="x-loading"></text>
-				加载中...
+				<text class="x-loading x-button__loading"></text>
+				<text class="x-button__text">加载中...</text>
 			</button>
 			<button class="x-button x-button--primary" loading>加载中</button>
 		</demo-block>
@@ -36,7 +36,7 @@
 			<button class="x-button x-button--primary"><text class="x-icon x-icon-star-o x-button__icon"></text></button>
 			<button class="x-button x-button--primary">
 				<text class="x-icon x-icon-star-o x-button__icon"></text>
-				按钮
+				<text class="x-button__text">按钮</text>
 			</button>
 		</demo-block>
 		<demo-block title="按钮尺寸" padding>
