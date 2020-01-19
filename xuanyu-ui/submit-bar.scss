@@ -35,6 +35,12 @@
 	}
 
 	&__text {
+		// display: flex;
+		// align-items: center;
+		// justify-content: flex-end;
+		display: inline-flex;
+		align-items: baseline;
+		justify-content: flex-end;
 		flex: 1;
 		padding-right: $padding-sm;
 		color: $submit-bar-text-color;
