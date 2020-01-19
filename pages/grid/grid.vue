@@ -72,17 +72,17 @@
 			<view class="x-grid">
 				<view class="x-grid-item" style="flex-basis: 33.3333%;">
 					<view class="x-grid-item__content x-grid-item__content--center">
-						<view class="x-image"><imgage src="https://img.yzcdn.cn/vant/apple-1.jpg" class="x-image__img" style="object-fit: contain;" /></view>
+						<view class="x-image"><image src="https://img.yzcdn.cn/vant/apple-1.jpg" class="x-image__img" style="object-fit: contain;" /></view>
 					</view>
 				</view>
 				<view class="x-grid-item" style="flex-basis: 33.3333%;">
 					<view class="x-grid-item__content x-grid-item__content--center">
-						<view class="x-image"><imgage src="https://img.yzcdn.cn/vant/apple-2.jpg" class="x-image__img" style="object-fit: contain;" /></view>
+						<view class="x-image"><image src="https://img.yzcdn.cn/vant/apple-2.jpg" class="x-image__img" style="object-fit: contain;" /></view>
 					</view>
 				</view>
 				<view class="x-grid-item" style="flex-basis: 33.3333%;">
 					<view class="x-grid-item__content x-grid-item__content--center">
-						<view class="x-image"><imgage src="https://img.yzcdn.cn/vant/apple-3.jpg" class="x-image__img" style="object-fit: contain;" /></view>
+						<view class="x-image"><image src="https://img.yzcdn.cn/vant/apple-3.jpg" class="x-image__img" style="object-fit: contain;" /></view>
 					</view>
 				</view>
 			</view>
