@@ -40,6 +40,10 @@ uni-button:after {
 	&::after {
 		border-width: 0;
 	}
+	
+	&:active::before {
+		opacity: 0.15;
+	}
 
 	&--default {
 		color: $button-default-color;
@@ -173,7 +177,7 @@ uni-button:after {
 		&::after {
 			border-color: inherit;
 			border-width: 1px;
-			border-radius: calc($button-border-radius * 2);
+			border-radius: $button-border-radius;
 		}
 
 		&.x-button--round::after {
