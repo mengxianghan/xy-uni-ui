@@ -190,7 +190,8 @@ export default {
 				}
 			]
 		};
-	}
+	},
+	onShareAppMessage() {}
 };
 </script>
 
