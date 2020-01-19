@@ -4,15 +4,15 @@
 			<view class="x-submit-bar">
 				<view class="x-submit-bar__bar">
 					<view class="x-submit-bar__text">
-						<text>合计：</text>
-						<text class="x-submit-bar__price">
+						<view>合计：</view>
+						<view class="x-submit-bar__price">
 							¥
 							<text class="x-submit-bar__price x-submit-bar__price--integer">30</text>
 							.50
-						</text>
+						</view>
 					</view>
 					<button class="x-button x-button--danger x-button--round x-submit-bar__button x-submit-bar__button--danger">
-						<text class="x-button__text">提交订单</text>
+						提交订单
 					</button>
 				</view>
 			</view>
@@ -25,17 +25,17 @@
 				</view>
 				<view class="x-submit-bar__bar">
 					<view class="x-submit-bar__text">
-						<text>合计：</text>
-						<text class="x-submit-bar__price">
+						<view>合计：</view>
+						<view class="x-submit-bar__price">
 							¥
 							<text class="x-submit-bar__price x-submit-bar__price--integer">30</text>
 							.50
-						</text>
+						</view>
 					</view>
 					<button
 						disabled
 						class="x-button x-button--danger x-button--disabled x-button--round x-submit-bar__button x-submit-bar__button--danger">
-						<text class="x-button__text">提交订单</text>
+						提交订单
 					</button>
 				</view>
 			</view>
@@ -44,12 +44,12 @@
 			<view class="x-submit-bar">
 				<view class="x-submit-bar__bar">
 					<view class="x-submit-bar__text">
-						<text>合计：</text>
-						<text class="x-submit-bar__price">
+						<view>合计：</view>
+						<view class="x-submit-bar__price">
 							¥
 							<text class="x-submit-bar__price x-submit-bar__price--integer">30</text>
 							.50
-						</text>
+						</view>
 					</view>
 					<button class="x-button x-button--danger x-button--loading x-button--round x-submit-bar__button x-submit-bar__button--danger">
 						<text class="x-loading" style="color: currentcolor; width: 32rpx; height: 32rpx;"></text>
@@ -69,15 +69,15 @@
 						<text class="x-checkbox__label">全选</text>
 					</label>
 					<view class="x-submit-bar__text">
-						<text>合计：</text>
-						<text class="x-submit-bar__price">
+						<view>合计：</view>
+						<view class="x-submit-bar__price">
 							¥
 							<text class="x-submit-bar__price x-submit-bar__price--integer">30</text>
 							.50
-						</text>
+						</view>
 					</view>
 					<button class="x-button x-button--danger x-button--round x-submit-bar__button x-submit-bar__button--danger">
-						<text class="x-button__text">提交订单</text>
+						提交订单
 					</button>
 				</view>
 			</view>

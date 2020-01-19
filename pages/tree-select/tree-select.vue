@@ -46,7 +46,7 @@
 					<view class="x-sidebar-item x-tree-select__nav-item"><view class="x-sidebar-item__text">分组 2</view></view>
 				</view>
 				<view class="x-tree-select__content">
-					<view class="x-image"><image src="https://img.yzcdn.cn/vant/apple-1.jpg" class="x-image__img" /></view>
+					<view class="x-image" style="width:100%;"><image mode="widthFix" src="https://img.yzcdn.cn/vant/apple-1.jpg" class="x-image__img" /></view>
 				</view>
 			</view>
 		</demo-block>
