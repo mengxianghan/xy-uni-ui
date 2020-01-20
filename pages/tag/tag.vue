@@ -1,5 +1,5 @@
 <template>
-	<view class="demo-section">
+	<view class="demo-section demo-tag">
 		<demo-block title="基础用法" padding>
 			<view class="x-tag x-tag--default">标签</view>
 			<view class="x-tag x-tag--primary">标签</view>
@@ -54,4 +54,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.demo-tag{
+		.x-tag{
+			margin-right: 16rpx;
+		}
+	}
+</style>
