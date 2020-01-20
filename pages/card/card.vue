@@ -84,8 +84,8 @@
 				</view>
 				<view class="x-card__footer">
 					<view>
-						<button class="x-button x-button--default x-button--mini x-button--round"><text class="x-button__text">按钮</text></button>
-						<button class="x-button x-button--default x-button--mini x-button--round"><text class="x-button__text">按钮</text></button>
+						<button class="x-button x-button--default x-button--small x-button--round"><text class="x-button__text">按钮</text></button>
+						<button class="x-button x-button--default x-button--small x-button--round"><text class="x-button__text">按钮</text></button>
 					</view>
 				</view>
 			</view>
