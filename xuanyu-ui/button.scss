@@ -185,13 +185,13 @@ uni-button:after {
 	}
 
 	&--hairline {
-		padding-top: 1px; // add 1px padding for text vertical align middle
+		// padding-top: 1px; // add 1px padding for text vertical align middle
 		border-width: 0;
 
 		&::after {
 			border-color: inherit;
 			border-width: 1px;
-			border-radius: $button-border-radius;
+			border-radius: $button-border-radius * 2;
 		}
 
 		&.x-button--round::after {
