@@ -24,9 +24,9 @@
 				<view class="x-dialog__header">标题</view>
 				<view class="x-dialog__content"><view class="x-dialog__message x-dialog__message--has-title">代码是写出来给人看的，附带能在机器上运行</view></view>
 				<view class="x-hairline--top x-dialog__footer x-dialog__footer--buttons">
-					<button class="x-button x-button--default x-button--large x-dialog__cancel" @tap="handleShow('show2')"><text class="x-button__text">取消</text></button>
-					<button class="x-button x-button--default x-button--large x-dialog__confirm x-hairline--left" @tap="handleShow('show2')">
-						<text class="x-button__text">确认</text>
+					<button class="x-button x-button--default x-button--large x-dialog__cancel" @tap="handleShow('show2')">取消</button>
+					<button class="x-button x-button--default x-button--large x-dialog__confirm" @tap="handleShow('show2')">
+						确认
 					</button>
 				</view>
 			</view>
@@ -66,6 +66,11 @@ export default {
 	}
 	.x-button {
 		margin-right: 16rpx;
+	}
+	.x-dialog{
+		.x-button{
+			margin: 0;
+		}
 	}
 }
 </style>
