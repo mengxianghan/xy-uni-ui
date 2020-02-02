@@ -1,8 +1,8 @@
 .x-nav-bar {
 	position: relative;
-	height: $nav-bar-height;
-	line-height: $nav-bar-height;
-	text-align: center;
+	// height: $nav-bar-height;
+	// line-height: $nav-bar-height;
+	// text-align: center;
 	background-color: $nav-bar-background-color;
 	user-select: none;
 
@@ -10,22 +10,28 @@
 		color: $nav-bar-icon-color;
 		vertical-align: middle;
 	}
+	
+	&--fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	
+	&__bar{
+		display: flex;
+		align-items: center;
+		height: $nav-bar-height;
+	}
 
 	&__arrow {
 		min-width: 1em;
 		font-size: $nav-bar-arrow-size;
 
 		+ .x-nav-bar__text {
-			margin-left: -20px;
-			padding-left: 25px;
+			// margin-left: -20px;
+			// padding-left: 25px;
 		}
-	}
-
-	&--fixed {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
 	}
 
 	&__title {
@@ -42,25 +48,34 @@
 		bottom: 0;
 		font-size: $font-size-md;
 		cursor: pointer;
+		height:100%;
+		display: flex;
+		align-items: center;
 	}
 
 	&__left {
-		left: $padding-md;
+		// left: $padding-md;
+		left: 0;
 	}
 
 	&__right {
-		right: $padding-md;
+		// right: $padding-md;
+		right: 0;
 	}
 
 	&__text {
 		display: inline-block;
-		margin: 0 -$padding-md;
+		// margin: 0 -$padding-md;
 		padding: 0 $padding-md;
 		color: $nav-bar-text-color;
 		vertical-align: middle;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-		&:active {
-			background-color: $active-color;
-		}
+		// &:active {
+		// 	background-color: $active-color;
+		// }
 	}
 }
