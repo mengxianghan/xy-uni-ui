@@ -13,6 +13,7 @@
 	&--active {
 		color: $tab-active-text-color;
 		font-weight: $font-weight-bold;
+		border-bottom: $tabs-bottom-bar-height solid $tabs-bottom-bar-color;
 	}
 
 	&--disabled {
