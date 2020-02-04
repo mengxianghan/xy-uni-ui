@@ -42,7 +42,8 @@ $font-size-sm: 12px;
 $font-size-md: 14px;
 $font-size-lg: 16px;
 $font-weight-bold: 500;
-$price-integer-font-family: Avenir-Heavy, PingFang SC, Helvetica Neue, Arial, sans-serif;
+$price-integer-font-family: Avenir-Heavy, PingFang SC, Helvetica Neue, Arial,
+  sans-serif;
 
 // Animation
 $animation-duration-base: 0.3s;
@@ -57,7 +58,7 @@ $border-radius-lg: 8px;
 $border-radius-max: 999px;
 
 // ActionSheet
-$action-sheet-max-height: 90%;
+$action-sheet-max-height: 80%;
 $action-sheet-header-height: 44px;
 $action-sheet-header-font-size: $font-size-lg;
 $action-sheet-description-color: $gray-7;
@@ -108,10 +109,10 @@ $button-small-font-size: $font-size-sm;
 $button-small-min-width: 60px;
 $button-small-line-height: 28px;
 $button-normal-font-size: $font-size-md;
-$button-large-height: 48px;
-$button-large-line-height: 46px;
-$button-default-height: 40px;
-$button-default-line-height: 38px;
+$button-large-height: 50px;
+$button-large-line-height: 48px;
+$button-default-height: 44px;
+$button-default-line-height: 42px;
 $button-default-font-size: $font-size-lg;
 $button-default-color: $text-color;
 $button-default-background-color: $white;
@@ -326,6 +327,7 @@ $dropdown-menu-title-padding: 0 $padding-xs;
 $dropdown-menu-title-line-height: 18px;
 $dropdown-menu-option-active-color: $blue;
 $dropdown-menu-content-max-height: 80%;
+$dropdown-item-z-index: 10;
 
 // Field
 $field-label-width: 90px;
@@ -354,8 +356,9 @@ $grid-item-text-font-size: $font-size-sm;
 
 // GoodsAction
 $goods-action-background-color: $white;
+$goods-action-height: 50px;
 $goods-action-icon-width: 48px;
-$goods-action-icon-height: 50px;
+$goods-action-icon-height: 100%;
 $goods-action-icon-color: $text-color;
 $goods-action-icon-size: 18px;
 $goods-action-icon-font-size: $font-size-xs;
@@ -366,17 +369,21 @@ $goods-action-button-warning-color: $gradient-orange;
 $goods-action-button-danger-color: $gradient-red;
 
 // IndexAnchor
+$index-anchor-z-index: 1;
 $index-anchor-padding: 0 $padding-md;
 $index-anchor-text-color: $text-color;
 $index-anchor-font-weight: $font-weight-bold;
 $index-anchor-font-size: $font-size-md;
 $index-anchor-line-height: 32px;
 $index-anchor-background-color: transparent;
+$index-anchor-sticky-text-color: $green;
 $index-anchor-sticky-background-color: $white;
 
 // IndexBar
+$index-bar-sidebar-z-index: 2;
 $index-bar-index-font-size: $font-size-xs;
 $index-bar-index-line-height: 14px;
+$index-bar-index-active-color: $green;
 
 // Info
 $info-size: 16px;
@@ -400,6 +407,7 @@ $image-error-icon-size: 22px;
 // ImagePreview
 $image-preview-index-text-color: $white;
 $image-preview-index-font-size: $font-size-md;
+$image-preview-index-text-shadow: 0 1px 1px $gray-8;
 $image-preview-overlay-background-color: rgba(0, 0, 0, 0.9);
 
 // List
@@ -423,6 +431,7 @@ $nav-bar-icon-color: $blue;
 $nav-bar-text-color: $blue;
 $nav-bar-title-font-size: $font-size-lg;
 $nav-bar-title-text-color: $text-color;
+$nav-bar-z-index: 1;
 
 // NoticeBar
 $notice-bar-height: 40px;
@@ -436,6 +445,7 @@ $notice-bar-icon-size: 16px;
 $notice-bar-icon-min-width: 22px;
 
 // Notify
+$notify-text-color: $white;
 $notify-padding: $padding-xs $padding-md;
 $notify-font-size: $font-size-md;
 $notify-line-height: 20px;
@@ -463,8 +473,10 @@ $number-keyboard-cursor-color: $text-color;
 $number-keyboard-cursor-width: 1px;
 $number-keyboard-cursor-height: 40%;
 $number-keyboard-cursor-animation-duration: 1s;
+$number-keyboard-z-index: 100;
 
 // Overlay
+$overlay-z-index: 1;
 $overlay-background-color: rgba(0, 0, 0, 0.7);
 
 // Pagination
@@ -511,7 +523,7 @@ $picker-loading-mask-color: rgba(255, 255, 255, 0.9);
 
 // Popup
 $popup-background-color: $white;
-$popup-transition: transform $animation-duration-base ease-out, opacity $animation-duration-base ease-out;
+$popup-transition: transform $animation-duration-base ease-out;
 $popup-round-border-radius: 20px;
 $popup-close-icon-size: 18px;
 $popup-close-icon-color: $gray-6;
@@ -547,10 +559,14 @@ $radio-disabled-background-color: $border-color;
 // Rate
 $rate-icon-size: 20px;
 $rate-icon-gutter: 4px;
+$rate-icon-void-color: $gray-5;
+$rate-icon-full-color: #ffd21e;
+$rate-icon-disabled-color: #bdbdbd;
 
 // Search
 $search-padding: 10px $padding-sm;
-$search-background-color: #f7f8fa;
+$search-background-color: $white;
+$search-content-background-color: $gray-1;
 $search-input-height: 34px;
 $search-label-padding: 0 5px;
 $search-label-color: $text-color;
@@ -587,6 +603,7 @@ $skeleton-animation-duration: 1.2s;
 $slider-active-background-color: $blue;
 $slider-inactive-background-color: $gray-3;
 $slider-disabled-opacity: $disabled-opacity;
+$slider-bar-height: 2px;
 $slider-button-width: 24px;
 $slider-button-height: 24px;
 $slider-button-border-radius: 50%;
@@ -595,6 +612,7 @@ $slider-button-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 
 // Step
 $step-text-color: $gray-6;
+$step-active-color: $green;
 $step-process-text-color: $text-color;
 $step-font-size: $font-size-md;
 $step-line-color: $border-color;
@@ -661,7 +679,8 @@ $switch-height: 1em;
 $switch-node-size: 1em;
 $switch-node-z-index: 1;
 $switch-node-background-color: $white;
-$switch-node-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+$switch-node-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05),
+  0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
 $switch-background-color: $white;
 $switch-on-background-color: $blue;
 $switch-transition-duration: $animation-duration-base;
@@ -676,6 +695,7 @@ $switch-cell-large-padding-bottom: $cell-large-vertical-padding - 1px;
 
 // Tabbar
 $tabbar-height: 50px;
+$tabbar-z-index: 1;
 $tabbar-background-color: $white;
 
 // TabbarItem

@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss">
 /*每个页面公共css */
-@import './xuanyu-ui/index.scss';
+@import './xuanyu-ui/xuanyu-ui.scss';
 page {
 	background: #f8f8f8;
 }
