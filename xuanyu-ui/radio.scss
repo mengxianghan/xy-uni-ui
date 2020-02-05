@@ -46,6 +46,11 @@
 			}
 		}
 	}
+	
+	&--block{
+		display: flex;
+	}
+	
 	&--disabled {
 		uni-radio,
 		radio {

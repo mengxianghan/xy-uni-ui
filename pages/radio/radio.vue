@@ -2,11 +2,11 @@
 	<view class="demo-section demo-radio">
 		<demo-block title="基本用法" padding>
 			<radio-group>
-				<label class="x-radio">
+				<label class="x-radio x-radio--block">
 					<radio />
 					<text class="x-radio__label">单选框 1</text>
 				</label>
-				<label class="x-radio">
+				<label class="x-radio x-radio--block">
 					<radio />
 					<text class="x-radio__label">单选框 2</text>
 				</label>
@@ -14,11 +14,11 @@
 		</demo-block>
 		<demo-block title="禁用状态" padding>
 			<radio-group>
-				<label class="x-radio x-radio--disabled">
+				<label class="x-radio x-radio--block x-radio--disabled">
 					<radio :disabled="true" />
 					<text class="x-radio__label">单选框 1</text>
 				</label>
-				<label class="x-radio x-radio--disabled">
+				<label class="x-radio x-radio--block x-radio--disabled">
 					<radio :disabled="true" checked />
 					<text class="x-radio__label">单选框 2</text>
 				</label>
@@ -26,11 +26,11 @@
 		</demo-block>
 		<demo-block title="禁用文本点击" padding>
 			<radio-group>
-				<view class="x-radio">
+				<view class="x-radio x-radio--block">
 					<radio />
 					<text class="x-radio__label">单选框 1</text>
 				</view>
-				<view class="x-radio">
+				<view class="x-radio x-radio--block">
 					<radio />
 					<text class="x-radio__label">单选框 2</text>
 				</view>
@@ -38,11 +38,11 @@
 		</demo-block>
 		<demo-block title="自定义形状" padding>
 			<radio-group>
-				<label class="x-radio x-radio--square">
+				<label class="x-radio x-radio--block x-radio--square">
 					<radio />
 					<text class="x-radio__label">单选框 1</text>
 				</label>
-				<label class="x-radio x-radio--square">
+				<label class="x-radio x-radio--block x-radio--square">
 					<radio />
 					<text class="x-radio__label">单选框 2</text>
 				</label>
@@ -50,11 +50,11 @@
 		</demo-block>
 		<demo-block title="自定义颜色" padding>
 			<radio-group>
-				<label class="x-radio custom-color">
+				<label class="x-radio x-radio--block custom-color">
 					<radio />
 					<text class="x-radio__label">单选框 1</text>
 				</label>
-				<label class="x-radio custom-color">
+				<label class="x-radio x-radio--block custom-color">
 					<radio />
 					<text class="x-radio__label">单选框 2</text>
 				</label>
@@ -62,11 +62,11 @@
 		</demo-block>
 		<demo-block title="自定义大小" padding>
 			<radio-group>
-				<label class="x-radio custom-size">
+				<label class="x-radio x-radio--block custom-size">
 					<radio />
 					<text class="x-radio__label">单选框 1</text>
 				</label>
-				<label class="x-radio custom-size">
+				<label class="x-radio x-radio--block custom-size">
 					<radio />
 					<text class="x-radio__label">单选框 2</text>
 				</label>

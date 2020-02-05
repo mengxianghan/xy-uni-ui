@@ -1,45 +1,45 @@
 <template>
 	<view class="demo-section demo-checkbox">
 		<demo-block title="基本用法" padding>
-			<label class="x-checkbox">
+			<label class="x-checkbox x-checkbox--block">
 				<checkbox />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
 		</demo-block>
 		<demo-block title="禁用状态" padding>
-			<label class="x-checkbox x-checkbox--disabled">
+			<label class="x-checkbox x-checkbox--block x-checkbox--disabled">
 				<checkbox :disabled="true" />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
-			<label class="x-checkbox x-checkbox--disabled">
+			<label class="x-checkbox x-checkbox--block x-checkbox--disabled">
 				<checkbox :disabled="true" checked />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
 		</demo-block>
 		<demo-block title="禁用文本点击" padding>
-			<view class="x-checkbox">
-				<checkbox />
-				<text class="x-checkbox__label">复选框</text>
-			</view>
-		</demo-block>
-		<demo-block title="自定义形状" padding>
-			<label class="x-checkbox x-checkbox--round">
+			<label class="x-checkbox x-checkbox--block">
 				<checkbox />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
-			<label class="x-checkbox x-checkbox--square">
+		</demo-block>
+		<demo-block title="自定义形状" padding>
+			<label class="x-checkbox x-checkbox--block x-checkbox--round">
+				<checkbox />
+				<text class="x-checkbox__label">复选框</text>
+			</label>
+			<label class="x-checkbox x-checkbox--block x-checkbox--square">
 				<checkbox />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
 		</demo-block>
 		<demo-block title="自定义颜色" padding>
-			<label class="x-checkbox custom-color">
+			<label class="x-checkbox x-checkbox--block custom-color">
 				<checkbox />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
 		</demo-block>
 		<demo-block title="自定义大小" padding>
-			<label class="x-checkbox custom-size">
+			<label class="x-checkbox x-checkbox--block custom-size">
 				<checkbox />
 				<text class="x-checkbox__label">复选框</text>
 			</label>
