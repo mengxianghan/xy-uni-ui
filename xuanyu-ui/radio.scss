@@ -1,8 +1,7 @@
 .x-radio {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	overflow: hidden;
-	cursor: pointer;
 	user-select: none;
 
 	--checked-color: $radio-checked-icon-color;

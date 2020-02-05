@@ -1,4 +1,4 @@
-page{
+page {
 	font-size: 28rpx;
 	font-family: 'PingFang SC';
 }
@@ -14,4 +14,11 @@ navigator,
 image {
 	box-sizing: border-box;
 	outline: none;
+}
+
+.uni-page-head {
+	font-family: $uni-font-family;
+}
+.uni-page-head-btn {
+	line-height: 1;
 }

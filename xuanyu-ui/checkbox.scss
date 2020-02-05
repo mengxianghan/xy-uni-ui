@@ -1,8 +1,7 @@
 .x-checkbox {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	overflow: hidden;
-	cursor: pointer;
 	user-select: none;
 
 	--checked-color: $checkbox-checked-icon-color;
@@ -90,4 +89,3 @@
 		line-height: $checkbox-size;
 	}
 }
-
