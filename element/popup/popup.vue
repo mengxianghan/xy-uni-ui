@@ -6,7 +6,7 @@
 				<text class="x-icon x-icon-arrow x-cell__right-icon"></text>
 			</view>
 
-			<view class="x-popup x-popup--center" :class="{ 'x-popup--show': show1 }" style="padding: 30px 50px; z-index: 2135;">内容</view>
+			<view class="x-popup x-popup--center" :class="{ 'x-popup--show': show1 }" catchtouchmove="true" style="padding: 30px 50px; z-index: 2135;">内容</view>
 		</demo-block>
 		<demo-block title="弹出位置">
 			<view class="x-cell x-cell--clickable" @tap="handleShow('show2')">

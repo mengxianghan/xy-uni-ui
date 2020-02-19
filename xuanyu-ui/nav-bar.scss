@@ -1,8 +1,5 @@
 .x-nav-bar {
 	position: relative;
-	// height: $nav-bar-height;
-	// line-height: $nav-bar-height;
-	// text-align: center;
 	background-color: $nav-bar-background-color;
 	user-select: none;
 
@@ -22,6 +19,7 @@
 		display: flex;
 		align-items: center;
 		height: $nav-bar-height;
+		position: relative;
 	}
 
 	&__arrow {

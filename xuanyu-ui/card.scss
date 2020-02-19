@@ -33,7 +33,7 @@
 		flex-direction: column;
 		justify-content: space-between;
 		min-width: 0; /* hack for flex box ellipsis */
-		min-height: $card-thumb-size;
+		// min-height: $card-thumb-size;
 
 		&--centered {
 			justify-content: center;
@@ -46,7 +46,7 @@
 	}
 
 	&__title {
-		max-height: 32px;
+		// max-height: 32px;
 		font-weight: $font-weight-bold;
 		line-height: $card-title-line-height;
 	}

@@ -36,35 +36,17 @@
 </template>
 
 <script>
+import { navbar } from '@/xuanyu-ui/utils/util.js';
 export default {
 	data() {
 		return {};
 	},
-	onLoad() {
-	},
+	onLoad() {},
 	computed: {
+		// 计算导航栏高度
+		// 说明：由于自定义组件内部无法使用变量，请开发者打印出 navbar 变量自定义赋值即可
 		navbar() {
-			const navbar = {
-				height: 0,
-				statusBarHeight: 0
-			};
-			const { platform, statusBarHeight } = uni.getSystemInfoSync();
-			navbar.statusBarHeight = statusBarHeight;
-			
-			// #ifndef H5
-			const { top, bottom, height } = uni.getMenuButtonBoundingClientRect();
-			navbar.height = top - statusBarHeight + height * 2;
-			// #endif
-
-			// #ifdef H5
-			if (platform === 'android') {
-				navbar.height = 48;
-			} else {
-				navbar.height = 44;
-			}
-			// #endif
-			
-			return navbar;
+			return navbar();
 		}
 	}
 };

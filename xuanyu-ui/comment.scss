@@ -1,0 +1,62 @@
+.x-comment {
+	padding: $comment-padding;
+	
+	&--nested {
+		margin-left: 40px;
+	}
+
+	&-inner {
+		display: flex;
+		align-items: stretch;
+		padding: 8px 0;
+	}
+
+	&__avatar {
+		width: $comment-avatar-size;
+		height: $comment-avatar-size;
+		margin-right: 10px;
+		.x-image__img {
+			border-radius: $comment-avatar-border-radius;
+		}
+	}
+	&__content {
+		flex: 1;
+	}
+	&__author {
+		display: flex;
+		align-items: center;
+		font-size: $comment-author-font-size;
+		color: $comment-author-text-color;
+		margin-bottom: 8px;
+	}
+	&__name {
+		margin-right: 8px;
+	}
+	&__rate {
+		margin-bottom: 8px;
+	}
+	&__detail {
+		line-height: $comment-detail-line-height;
+		margin-bottom: 8px;
+	}
+	&__actions {
+		display: flex;
+		align-items: center;
+		font-size: $comment-actions-font-size;
+		color: $comment-actions-text-color;
+		line-height: $comment-actions-line-height;
+		.x-comment__time {
+			&::after {
+				content: '·';
+				display: inline-block;
+				margin: 0 8px;
+			}
+		}
+	}
+	&__action {
+		margin-right: 8px;
+		background: $comment-action-bg-color;
+		border-radius: $comment-action-border-radius;
+		padding: 0 15px;
+	}
+}

@@ -50,9 +50,12 @@
 		padding: $search-action-padding;
 		color: $search-action-text-color;
 		font-size: $search-action-font-size;
-		line-height: $search-input-height;
+		line-height: inherit;
 		cursor: pointer;
 		user-select: none;
+		display: flex;
+		align-items: center;
+		align-self: stretch;
 
 		&:active {
 			background-color: $active-color;

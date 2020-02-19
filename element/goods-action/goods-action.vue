@@ -11,10 +11,10 @@
 					购物车
 				</view>
 				<button class="x-button x-button--warning x-button--large x-button--square x-goods-action-button x-goods-action-button--first x-goods-action-button--warning">
-					<span class="x-button__text">加入购物车</span>
+					<text class="x-button__text">加入购物车</text>
 				</button>
 				<button class="x-button x-button--danger x-button--large x-button--square x-goods-action-button x-goods-action-button--last x-goods-action-button--danger">
-					<span class="x-button__text">立即购买</span>
+					<text class="x-button__text">立即购买</text>
 				</button>
 			</view>
 		</demo-block>
@@ -33,10 +33,10 @@
 					店铺
 				</view>
 				<button class="x-button x-button--warning x-button--large x-button--square x-goods-action-button x-goods-action-button--first x-goods-action-button--warning">
-					<span class="x-button__text">加入购物车</span>
+					<text class="x-button__text">加入购物车</text>
 				</button>
 				<button class="x-button x-button--danger x-button--large x-button--square x-goods-action-button x-goods-action-button--last x-goods-action-button--danger">
-					<span class="x-button__text">立即购买</span>
+					<text class="x-button__text">立即购买</text>
 				</button>
 			</view>
 		</demo-block>
@@ -55,10 +55,10 @@
 					已收藏
 				</view>
 				<button class="x-button x-button--warning x-button--large x-button--square x-goods-action-button x-goods-action-button--first x-goods-action-button--warning">
-					<span class="x-button__text">加入购物车</span>
+					<text class="x-button__text">加入购物车</text>
 				</button>
 				<button class="x-button x-button--danger x-button--large x-button--square x-goods-action-button x-goods-action-button--last x-goods-action-button--danger">
-					<span class="x-button__text">立即购买</span>
+					<text class="x-button__text">立即购买</text>
 				</button>
 			</view>
 		</demo-block>
@@ -76,13 +76,13 @@
 					class="x-button x-button--warning x-button--large x-button--square x-goods-action-button x-goods-action-button--first x-goods-action-button--warning"
 					style="color: rgb(255, 255, 255); background: rgb(190, 153, 255); border-color: rgb(190, 153, 255);"
 				>
-					<span class="x-button__text">加入购物车</span>
+					<text class="x-button__text">加入购物车</text>
 				</button>
 				<button
 					class="x-button x-button--danger x-button--large x-button--square x-goods-action-button x-goods-action-button--last x-goods-action-button--danger"
 					style="color: rgb(255, 255, 255); background: rgb(114, 50, 221); border-color: rgb(114, 50, 221);"
 				>
-					<span class="x-button__text">立即购买</span>
+					<text class="x-button__text">立即购买</text>
 				</button>
 			</view>
 		</demo-block>

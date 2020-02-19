@@ -1,8 +1,11 @@
 <template>
 	<view>
 		<view class="demo-home">
-			<view class="demo-home__title">xuanyu ui uniapp</view>
-			<view class="demo-home__desc">轻量、可靠的 UniApp 组件库</view>
+			<view class="demo-home__title">
+				<image src="http://cdn.xuanyunet.com/common%2Fimages%2Flogo.svg" mode="widthFix"></image>
+				<text>xuanyu ui uniapp</text>
+			</view>
+			<view class="demo-home__desc">基于 Vant 轻量、可靠的 UniApp 组件库</view>
 			<view class="demo-home-nav" v-for="(item, index) in list" :key="index">
 				<view class="demo-home-nav__title">{{ item.title }}</view>
 				<view class="demo-home-nav__group">
@@ -23,27 +26,23 @@ export default {
 					children: [
 						{
 							name: 'Button 按钮',
-							url: '/pages/button/button'
+							url: '/element/button/button'
 						},
 						{
 							name: 'Cell 单元格',
-							url: '/pages/cell/cell'
+							url: '/element/cell/cell'
 						},
-						// {
-						// 	name: 'Icon 图标',
-						// 	url: '/pages/icon/icon'
-						// },
 						{
 							name: 'Image 图片',
-							url: '/pages/image/image'
+							url: '/element/image/image'
 						},
 						{
 							name: 'Layout 布局',
-							url: '/pages/col/col'
+							url: '/element/col/col'
 						},
 						{
 							name: 'Popup 弹出层',
-							url: '/pages/popup/popup'
+							url: '/element/popup/popup'
 						}
 					]
 				},
@@ -52,39 +51,39 @@ export default {
 					children: [
 						{
 							name: 'Checkbox 复选框',
-							url: '/pages/checkbox/checkbox'
+							url: '/element/checkbox/checkbox'
 						},
 						{
 							name: 'Field 输入框',
-							url: '/pages/field/field'
+							url: '/element/field/field'
 						},
 						{
 							name: 'Radio 单选框',
-							url: '/pages/radio/radio'
+							url: '/element/radio/radio'
 						},
 						{
 							name: 'Rate 评分',
-							url: '/pages/rate/rate'
+							url: '/element/rate/rate'
 						},
 						{
 							name: 'Search 搜索',
-							url: '/pages/search/search'
+							url: '/element/search/search'
 						},
 						{
 							name: 'Slider 滑块',
-							url: '/pages/slider/slider'
+							url: '/element/slider/slider'
 						},
 						{
 							name: 'Stepper 步进器',
-							url: '/pages/stepper/stepper'
+							url: '/element/stepper/stepper'
 						},
 						{
 							name: 'Switch 开关',
-							url: '/pages/switch/switch'
+							url: '/element/switch/switch'
 						},
 						{
 							name: 'Uploader 文件上传',
-							url: '/pages/uploader/uploader'
+							url: '/element/uploader/uploader'
 						}
 					]
 				},
@@ -93,15 +92,15 @@ export default {
 					children: [
 						{
 							name: 'ActionSheet 上拉菜单',
-							url: '/pages/action-sheet/action-sheet'
+							url: '/element/action-sheet/action-sheet'
 						},
 						{
 							name: 'Dialog 弹出框',
-							url: '/pages/dialog/dialog'
+							url: '/element/dialog/dialog'
 						},
 						{
 							name: 'Loading 加载',
-							url: '/pages/loading/loading'
+							url: '/element/loading/loading'
 						}
 					]
 				},
@@ -110,23 +109,23 @@ export default {
 					children: [
 						{
 							name: 'divider 分割线',
-							url: '/pages/divider/divider'
+							url: '/element/divider/divider'
 						},
 						{
 							name: 'NoticeBar 通知栏',
-							url: '/pages/notice-bar/notice-bar'
+							url: '/element/notice-bar/notice-bar'
 						},
 						{
 							name: 'Panel 面板',
-							url: '/pages/panel/panel'
+							url: '/element/panel/panel'
 						},
 						{
 							name: 'Steps 步骤条',
-							url: '/pages/steps/steps'
+							url: '/element/steps/steps'
 						},
 						{
 							name: 'Tag 标记',
-							url: '/pages/tag/tag'
+							url: '/element/tag/tag'
 						}
 					]
 				},
@@ -135,27 +134,27 @@ export default {
 					children: [
 						{
 							name: 'Grid 宫格',
-							url: '/pages/grid/grid'
+							url: '/element/grid/grid'
 						},
 						{
 							name: 'NavBar 导航栏',
-							url: '/pages/nav-bar/nav-bar'
+							url: '/element/nav-bar/nav-bar'
 						},
 						{
 							name: 'Sidebar 侧边导航',
-							url: '/pages/sidebar/sidebar'
+							url: '/element/sidebar/sidebar'
 						},
 						{
 							name: 'Tab 标签页',
-							url: '/pages/tab/tab'
+							url: '/element/tab/tab'
 						},
 						{
 							name: 'Tabbar 标签栏',
-							url: '/pages/tabbar/tabbar'
+							url: '/element/tabbar/tabbar'
 						},
 						{
 							name: 'TreeSelect 分类选择',
-							url: '/pages/tree-select/tree-select'
+							url: '/element/tree-select/tree-select'
 						}
 					]
 				},
@@ -164,27 +163,31 @@ export default {
 					children: [
 						{
 							name: 'AddressEdit 地址编辑',
-							url: '/pages/address-edit/address-edit'
+							url: '/element/address-edit/address-edit'
 						},
 						{
 							name: 'Card 商品卡片',
-							url: '/pages/card/card'
+							url: '/element/card/card'
 						},
 						{
 							name: 'Contcat 联系人',
-							url: '/pages/contact-card/contact-card'
+							url: '/element/contact-card/contact-card'
+						},
+						{
+							name: 'Comment 评论',
+							url: '/element/comment/comment'
 						},
 						{
 							name: 'GoodsAction 商品导航',
-							url: '/pages/goods-action/goods-action'
+							url: '/element/goods-action/goods-action'
 						},
 						{
 							name: 'SubmitBar 提交订单栏',
-							url: '/pages/submit-bar/submit-bar'
+							url: '/element/submit-bar/submit-bar'
 						},
 						{
 							name: 'Sku 商品规格',
-							url: '/pages/sku/sku'
+							url: '/element/sku/sku'
 						}
 					]
 				}
@@ -205,6 +208,14 @@ export default {
 	&__title {
 		margin: 0 0 16px;
 		font-size: 32px;
+		display: flex;
+		align-items: center;
+		image {
+			width: 40px;
+		}
+		text {
+			margin-left: 16px;
+		}
 	}
 	&__desc {
 		margin: 0 0 40px;
