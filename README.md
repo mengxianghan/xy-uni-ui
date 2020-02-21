@@ -16,6 +16,8 @@
 1. 将项目中 xuanyu-ui 目录复制到你的项目中
 2. 在 App.vue 文件中引用 xuanyu-ui/index.scss
 
+注：demo在项目中 element 文件加中，将项目拉取到本地预览即可
+
 ## 预览
 <table>
     <tr>
